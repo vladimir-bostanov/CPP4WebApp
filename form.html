@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Copyright (C) 2021 Vladimir Bostanov
+
+This file is part of CPP4WebApp.
+
+CPP4WebApp is demonstration software: it is NOT intended to be used
+in production.
+
+CPP4WebApp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+CPP4WebApp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with CPP4WebApp.  If not, see <https://www.gnu.org/licenses/>.
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>CPP4WebApp Form</title>
+    <style>
+      body,input,button,td {font-family: sans-serif; font-size: 4vw;}
+      h1 {font-size: 120%}
+    </style>
+    <script src="cpp4webapp.js"></script>
+  </head>
+  <body onload="cpp(0);">
+    <h1>CPP4WebApp Form</h1>
+    <form method="POST" action="cpp4webapp_form.php">
+    <table style="border:0 none">
+      <tr><td>Form field 1:</td><td><input type="text" name="ff1"></td></tr>
+      <tr><td>Form field 2:</td><td><input type="text" name="ff2"></td></tr>
+      <tr><td><i>Progress:</i></td><td id="cpp4webapp_progress"></td></tr>
+      <tr><td><i>Time (s):</i></td><td id="cpp4webapp_time"></td></tr>
+      <tr><td><i>CPP status:</i></td><td id="cpp4webapp_status"></td></tr>
+      <tr><td>CPP key:</td><td><input id="cpp4webapp_key" type="text" name="key"></td>
+      </tr>
+      <tr><td><input type="reset" value="Reset" onclick="cpp(0);"></td>
+          <td><input id="cpp4webapp_submit" type="hidden" value="Submit"></td>
+      </tr>
+    </table>
+    </form>
+  </body>
+</html>

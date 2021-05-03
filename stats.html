@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+Copyright (C) 2021 Vladimir Bostanov
+
+This file is part of CPP4WebApp.
+
+CPP4WebApp is demonstration software: it is NOT intended to be used
+in production.
+
+CPP4WebApp is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+CPP4WebApp is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with CPP4WebApp.  If not, see <https://www.gnu.org/licenses/>.
+-->
+  <head>
+    <meta charset="utf-8">
+    <title>CPP4WebApp Stats</title>
+    <style>
+      body,input,button,td {font-family: sans-serif; font-size: 4.5vw;}
+      h1 {font-size: 120%}
+      h2 {font-size: 110%}
+    </style>
+    <script src="cpp4webapp.js"></script>
+  </head>
+  <body>
+    <h1>CPP4WebApp Stats</h1>
+    <h2>Parameters</h2>
+    <form id="login" method="POST" action="">
+    <table style="border:0 none">
+      <tr><td> CP_C   </td><td><input type="text" id="CP_C"
+                     placeholder="0 = inversion, 1 = collision"></td></tr>
+      <tr><td> N_CP   </td><td><input type="text" id="N_CP"
+                     placeholder="0 &lt; subpuzzles &lt; 4096"></td></tr>
+      <tr><td> N_BIT  </td><td><input type="text" id="N_BIT"
+                     placeholder="19 &lt; bits &lt; 33"></td></tr>
+      <tr><td> N_LAST </td><td><input type="text" id="N_LAST"
+                     placeholder="2 &lt; recursion args &lt; 4096"></td></tr>
+      <tr><td> N_COST </td><td><input type="text" id="N_COST"
+                     placeholder="0 &lt; cost &lt; 256"></td></tr>
+      <tr><td><input type="reset" value="Reset"></td>
+          <td><button type="button" onclick="cpp(1);">Do Stats</button></td>
+      <tr><td><i>Progress:</i></td><td id="cpp4webapp_progress"></td></tr>
+      <tr><td><i>Time (s):</i></td><td id="cpp4webapp_time"></td></tr>
+    </table>
+    </form>
+    <h2>Number of iterations</h2>
+    <table style="border:0 none">
+      <tr><td>Total:</td><td><b id="cpp4webapp_ntot"></b></td></tr>
+      <tr><td></td><td><i>Mean &plusmn; StDev</i></td></tr>
+      <tr><td>Per subpuzzle:&nbsp;</td></td><td><b id="cpp4webapp_result"></b></td></tr>
+      <tr><td><i>Theory:</i></td><td><i id="cpp4webapp_theory"></i></td></tr>
+      <tr><td>Hashrate:</td><td style="color:blue"><b id="cpp4webapp_khps"></b> kH/s</td></tr>
+    </table>
+  </body>
+</html>

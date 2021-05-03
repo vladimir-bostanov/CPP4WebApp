@@ -1,0 +1,2 @@
+Options +Indexes
+IndexOptions Charset=UTF-8 NameWidth=* +SuppressDescription +FancyIndexing +HTMLTable +FoldersFirst
