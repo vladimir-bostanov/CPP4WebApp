@@ -92,9 +92,9 @@ function cpp4webapp_hmac($Chain, $n)
   }
 
 function cpp4webapp_b2n($Str, $n0, $l)
-  {
-  return hexdec(bin2hex(strrev(substr($Str, $n0, $l))));
+  {// For demonstration & debugging purposes -- all the way back to the decimal representation:
+  return hexdec(bin2hex(strrev(substr($Str, $n0, $l)))); // SLOW! Not fit for production.
   }
 
-exit; // To make shure there are no more lines of output!
+exit; // To make sure there are no more lines of output!
 ?>

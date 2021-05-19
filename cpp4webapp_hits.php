@@ -47,5 +47,5 @@ if (array_key_exists('key', $_POST) &&
   }
 else echo 'cpp4webapp_hits.php: ERROR 1';
 
-exit; // To make shure there are no more lines of output!
+exit; // To make sure there are no more lines of output!
 ?>

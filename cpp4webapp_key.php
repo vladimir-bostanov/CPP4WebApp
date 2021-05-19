@@ -49,5 +49,5 @@ touch("./PoW/$key");
 
 echo $key;
 
-exit; // To make shure there are no more lines of output!
+exit; // To make sure there are no more lines of output!
 ?>
