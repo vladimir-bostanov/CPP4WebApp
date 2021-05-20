@@ -4,7 +4,7 @@
 
 Copyright (C) 2021 Vladimir Bostanov
 
-*CPP4WebApp is demonstration software: it is* **not** *intended to be used
+*CPP4WebApp is demonstration software: it is* **not** *intended for use
 in production.*
 
 CPP4WebApp is free software: you can redistribute it and/or modify
