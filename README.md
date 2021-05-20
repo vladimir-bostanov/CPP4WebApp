@@ -4,7 +4,7 @@
 
 Copyright (C) 2021 Vladimir Bostanov
 
-*CPP4WebApp is demonstration software: it is NOT intended to be used
+*CPP4WebApp is demonstration software: it is* **not** *intended to be used
 in production.*
 
 CPP4WebApp is free software: you can redistribute it and/or modify
@@ -23,5 +23,5 @@ along with CPP4WebApp.  If not, see [https://www.gnu.org/licenses/](https://www.
 
 The method is explained in:
 
-> [V. Bostanov, Vladimir. "Client Puzzle Protocols as Countermeasure against Automated Threats to Web Applications". *IEEE Access*, Accepted (2021), doi: 10.1109/ACCESS.2021.3082037.](https://doi.org/10.1109/ACCESS.2021.3082037)
+> [Bostanov, Vladimir. "Client Puzzle Protocols as Countermeasure against Automated Threats to Web Applications". *IEEE Access*, Accepted (2021), doi: 10.1109/ACCESS.2021.3082037.](https://doi.org/10.1109/ACCESS.2021.3082037)
 
