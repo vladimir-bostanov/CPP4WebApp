@@ -21,7 +21,7 @@ You should have received a copy of the GNU General Public License
 along with CPP4WebApp.  If not, see [https://www.gnu.org/licenses/](https://www.gnu.org/licenses/).
 
 
-The method is explained in:
+**CPP4WebApp is explained in detail in this paper:**
 
-> [Bostanov, Vladimir. "Client Puzzle Protocols as Countermeasure against Automated Threats to Web Applications." *IEEE Access* 9 (2021): 75722-75728, doi: 10.1109/ACCESS.2021.3082037.](https://doi.org/10.1109/ACCESS.2021.3082037)
+>[Bostanov, Vladimir. "Client Puzzle Protocols as Countermeasure against Automated Threats to Web Applications." *IEEE Access* 9 (2021): 75722-75728, doi: 10.1109/ACCESS.2021.3082037.](https://doi.org/10.1109/ACCESS.2021.3082037)
 
